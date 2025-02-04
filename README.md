@@ -6,6 +6,13 @@ Project using OKRs on PDI
 - Make
 - Hosts file (add the following to your hosts file: 127.0.0.1 laravel.test)
 
+## Dependencies
+- Laravel 11
+- Pest PHP 3
+- Livewire 3
+- TailwindCSS 3
+- Alpine.js
+
 ## Development
 After downloading the project, run the following command to install the dependencies:
 ```bash
