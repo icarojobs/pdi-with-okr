@@ -55,3 +55,8 @@ restart:	down up
 check:
 	@echo "--> Running all pre-commit actions..."
 	@./vendor/bin/captainhook --no-interaction --configuration=captainhook.json --bootstrap=vendor/autoload.php hook:pre-commit
+
+.PHONY: watch
+watch:
+	@echo "--> Watching for changes..."
+	@./vendor/bin/sail npm run dev

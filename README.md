@@ -19,6 +19,11 @@ On next time, you can start the containers with the following command:
 make up
 ```
 
+After that, open new terminal and run the following command to hot reload the application:
+```bash
+make watch
+```
+
 ## Testing
 
 ```bash
