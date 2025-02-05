@@ -45,3 +45,5 @@ make down
 
 Note: For more commands, check the Makefile.
 
+## Mailpit
+Open the following link to see the emails sent: http://localhost:8025
